@@ -75,6 +75,14 @@ export const Button = styled.button`
     width: fit-content;
     border-radius: 30px;
     cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+   &:active{
+    opacity: 0.5;
+   } 
 `
 
 
