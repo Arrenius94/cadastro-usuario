@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import api from "../../services/api";
 
 import {
-  Title,
+  // Title,
   Container,
   ContainerInputs,
   Input,
@@ -12,7 +12,7 @@ import {
   InputLabel,
 } from "./styles";
 
-
+import Title from "../../components/Title";
 import  Button  from "../../components/Button";
 import TopBackground from "../../components/TopBackground";
 
@@ -38,8 +38,8 @@ function Home() {
      <TopBackground/>
 
       <Form>
-        <Title>Cadastrar Usuários</Title>
-
+        <Title title="first">Cadastrar Usuários</Title>
+        
         <ContainerInputs>
             <div>
               <InputLabel>
