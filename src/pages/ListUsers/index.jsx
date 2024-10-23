@@ -40,7 +40,7 @@ function ListUsers() {
       closeDialog(); // Fecha o diálogo após a exclusão
     } catch (error) {
       console.error("Erro ao excluir o usuário:", error);
-      // Aqui você pode exibir uma mensagem de erro para o usuário, se desejar.
+     
     }
   }
 
